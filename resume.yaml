@@ -1,0 +1,50 @@
+name: Anton
+age: 20
+contact: habarovanto47@gmail.com
+education:
+  - Secondary general education
+  - 3 years of study at the Radio Engineering Faculty
+
+
+  categories:
+  - &hard 
+    Hard skils
+  - &soft
+    Soft skils
+  - &cicd
+    CI/CD
+
+
+    skills:
+- name: C++
+  level: junior
+  category: *hard 
+  labels:
+    - programming
+- name: Qt C++
+  level: junior
+  category: *hard
+  labels:
+    - programming
+- name: Arduino IDE
+  level: junior
+  category: *hard
+  labels:
+    - programming
+
+- name: English language
+  level: B2
+  category: *soft
+  labels:
+    - tools
+- name: Mounting of printed circuit boards
+  level: -
+  category: *hard
+  labels:
+    - technology
+- name: GitHub Actions
+  level: junior
+  category: *cicd
+  labels:
+    - tools
+  
